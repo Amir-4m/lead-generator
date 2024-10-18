@@ -12,7 +12,10 @@ from selenium.webdriver.common.action_chains import ActionChains
 from seleniumwire import webdriver
 from webdriver_manager.chrome import ChromeDriverManager
 
-
+"""
+MOST LIKELY DEPRECATED
+USE V2
+"""
 class GeneratorService(object):
     def cookie(self, data=None):
         # Check if the JSON file exists
